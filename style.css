@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-box {
+    width: 30vw;
+    position: relative;
+    margin: auto;
+    top: 50px;
+}
+
+.book-image {
+    height: 250px;
+    position: absolute;
+}
+
+.img1 {
+    z-index: 3;
+    transition: 0.2s ease-out;
+}
+.img1:hover {
+    border: 5px solid rgb(196, 40, 85);
+    transform: scale(0.95);
+}
+
+.img2 {
+    height: 230px;
+    z-index: 2;
+    left: 90px;
+    top: 7px;
+    transition: 0.2s ease-in-out;
+}
+.img2:hover {
+    border: 5px solid rgb(28, 120, 100);
+    transform: translate(30%)
+}
+
+.img3 {
+    height: 210px;
+    z-index: 1;
+    left: 180px;
+    top: 16px;
+    transition: 0.2s ease-in-out;
+}
+
+.img3:hover {
+    border: 5px solid rgb(31, 19, 49);
+    transform: translate(40%)
+}
